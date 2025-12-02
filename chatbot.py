@@ -5,7 +5,7 @@ from nltk.chat.util import Chat, reflections
 pairs = [
     [r"my name is (.*)", ["Hello %1, nice to meet you!"]],
     [r"hi|hey|hello", ["Hello there!", "Hey!", "Hi! How can I help you?"]],
-    [r"what is your name?", ["I am a chatbot created for the Codec Internship."]],
+    [r"what is your name?", ["I am a chatbot created for the Codec Internship by Sudarshan."]],
 
     # --- NEW RULES FOR CODEC ---
     [r"(.*)codec internship(.*)",
